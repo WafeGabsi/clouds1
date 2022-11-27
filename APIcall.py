@@ -11,7 +11,7 @@ parameters = {
 }
 headers = {
   'Accepts': 'application/json',
-  secret_key: ${{ secrets.SuperSecret }},
+  secret_key: ${{ secrets.secret_key }},
 }
 
 session = Session()
